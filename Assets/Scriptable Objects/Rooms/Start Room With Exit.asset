@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d257c47720940e2b41805fd60b1c81, type: 3}
+  m_Name: Start Room With Exit
+  m_EditorClassIdentifier: 
+  roomName: start room
+  description: As you enter the ancient dungeon, the entrance seals behind you. There
+    is no turning back. Explore its depths, face dangers and discover its secrets
+    in search of a way out in this subway world of no return.
+  exits:
+  - direction: north
+    description: You see a door to the north
+    room: {fileID: 11400000, guid: b95ca4cb00cc94ee2a8a831b128e6e17, type: 2}
+  - direction: south
+    description: A new door is opened to the south
+    room: {fileID: 11400000, guid: 75664ad3ae5804afbb0b9e2290a6b5ac, type: 2}
+  items: []

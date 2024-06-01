@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 932a23ff866244353a14abd5eb22652b, type: 3}
+  m_Name: Key
+  m_EditorClassIdentifier: 
+  itemName: key
+  description: There's an old key on the ground.
+  interactions:
+  - inputAction: {fileID: 11400000, guid: a6bc175bbd3aa457fbd3de0c589bc795, type: 2}
+    responseDescription: It's and old key, but it seems useful...
+    actionResponse: {fileID: 0}
+  - inputAction: {fileID: 11400000, guid: 3212df944d45e4c378208ebfc7f81f31, type: 2}
+    responseDescription: You take the key.
+    actionResponse: {fileID: 0}
+  - inputAction: {fileID: 11400000, guid: 8042fdfe5651c49e989dcf429d312725, type: 2}
+    responseDescription: 
+    actionResponse: {fileID: 11400000, guid: 9b60f582518964c26835be00854667b3, type: 2}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d257c47720940e2b41805fd60b1c81, type: 3}
+  m_Name: Key Room
+  m_EditorClassIdentifier: 
+  roomName: key room
+  description: You are surrounded by total blackness, unable to see more than a few
+    steps in front of you.
+  exits:
+  - direction: south
+    description: here's a door to the south with light coming through it
+    room: {fileID: 11400000, guid: 614a558888c5448dd8460554ab0fcf32, type: 2}
+  items:
+  - {fileID: 11400000, guid: 1838a859c922d44138a2f75b94a93a44, type: 2}
+  - {fileID: 11400000, guid: ac289cc4739c446e1b2aac3b2566941b, type: 2}

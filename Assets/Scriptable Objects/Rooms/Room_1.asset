@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d257c47720940e2b41805fd60b1c81, type: 3}
+  m_Name: Room_1
+  m_EditorClassIdentifier: 
+  roomName: cocina
+  description: "Entras a una especie de cocina, el olor es p\xFAtrido y hay un mont\xF3n
+    de lo que parece ser comida en una esquina... es mejor no acercarse"
+  exits:
+  - direction: este
+    description: Ves una puerta al este donde se puede escuchar a alguien hablar
+    room: {fileID: 11400000, guid: f519a3007d9e2344283346f2e4ca9629, type: 2}
+  - direction: norte
+    description: "Tambi\xE9n hay una puerta al norte, no se ve nada al otro lado,
+      est\xE1 muy oscuro"
+    room: {fileID: 11400000, guid: 614a558888c5448dd8460554ab0fcf32, type: 2}
+  items: []

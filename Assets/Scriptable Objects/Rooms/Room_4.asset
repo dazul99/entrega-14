@@ -10,13 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a6d257c47720940e2b41805fd60b1c81, type: 3}
-  m_Name: Key Room
+  m_Name: Room_4
   m_EditorClassIdentifier: 
-  roomName: key room
-  description: "es una habitaci\xF3n con una cama en el centro."
+  roomName: habitacion con espada
+  description: "entras a la habitaci\xF3n, no hay nada especial en ella excepto por
+    la espada en el suelo"
   exits:
-  - direction: este
-    description: "la puerta al este te llevar\xE1 de vuelta a la entrada"
+  - direction: oeste
+    description: "tal vez deber\xEDas volver al oeste despu\xE9s de coger la espada"
     room: {fileID: 11400000, guid: 084449d9e47ec874ab240f709937bef3, type: 2}
   items:
-  - {fileID: 11400000, guid: 1838a859c922d44138a2f75b94a93a44, type: 2}
+  - {fileID: 11400000, guid: ac289cc4739c446e1b2aac3b2566941b, type: 2}

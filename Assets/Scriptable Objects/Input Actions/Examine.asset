@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79beb7dbca0b048d393ade5b3ee57421, type: 3}
   m_Name: Examine
   m_EditorClassIdentifier: 
-  keyWord: examine
+  keyWord: Examinar

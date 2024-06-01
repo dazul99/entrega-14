@@ -10,13 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a6d257c47720940e2b41805fd60b1c81, type: 3}
-  m_Name: Start Room
+  m_Name: Room_2
   m_EditorClassIdentifier: 
-  roomName: habitacion oscura
-  description: "Despiertas en una habitaci\xF3n oscura, con el suelo de madera podrida
-    y paredes de piedra."
+  roomName: habitacion con radio
+  description: "En esta habitaci\xF3n tan solo hay una radio en una silla, se escucha
+    a alguien hablar en un idioma que desconoces"
   exits:
-  - direction: sur
-    description: Ves una puerta al sur por donde se ve algo de luz
+  - direction: oeste
+    description: Hay una puerta al oeste por la cual sientes un olor horrible
     room: {fileID: 11400000, guid: 5a1ded9d12ec7824091e974eb8152cb3, type: 2}
+  - direction: sur
+    description: Hay otra puerta al sur por donde parece entrar algo de luz natural
+    room: {fileID: 11400000, guid: 084449d9e47ec874ab240f709937bef3, type: 2}
   items: []

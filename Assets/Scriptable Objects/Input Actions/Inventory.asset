@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04720c8e489db49bbb03fd29c3555887, type: 3}
   m_Name: Inventory
   m_EditorClassIdentifier: 
-  keyWord: inventory
+  keyWord: inventario

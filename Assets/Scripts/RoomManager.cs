@@ -64,19 +64,19 @@ public class RoomManager : MonoBehaviour
             foreach (Interaction interaction in item.interactions)
             {
                 // We check if the item can be examined
-                if (interaction.inputAction.keyWord.Equals("examine"))
+                if (interaction.inputAction.keyWord.Equals("examinar"))
                 {
                     // We set up examineDictionary
                     examineDictionary.Add(item.itemName, interaction.responseDescription);
                 }
                 // We check if the item can be taken
-                else if (interaction.inputAction.keyWord.Equals("take"))
+                else if (interaction.inputAction.keyWord.Equals("coger"))
                 {
                     // We set up takeDictionary
                     takeDictionary.Add(item.itemName, interaction.responseDescription);
                 }
                 // We check if the item can be used
-                else if (interaction.inputAction.keyWord.Equals("use"))
+                else if (interaction.inputAction.keyWord.Equals("usar"))
                 {
                     // We check if the item has not been added yet to usableItems
                     if (!usableItems.Contains(item))

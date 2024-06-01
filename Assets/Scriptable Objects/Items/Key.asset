@@ -12,14 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 932a23ff866244353a14abd5eb22652b, type: 3}
   m_Name: Key
   m_EditorClassIdentifier: 
-  itemName: key
-  description: There's an old key on the ground.
+  itemName: llave
+  description: "Hay una llave en la cama, est\xE1 sucia, pero no te importa mucho,
+    tu tambi\xE9n lo est\xE1s"
   interactions:
   - inputAction: {fileID: 11400000, guid: a6bc175bbd3aa457fbd3de0c589bc795, type: 2}
-    responseDescription: It's and old key, but it seems useful...
+    responseDescription: "es solo una llave, c\xF3gela y vete!"
     actionResponse: {fileID: 0}
   - inputAction: {fileID: 11400000, guid: 3212df944d45e4c378208ebfc7f81f31, type: 2}
-    responseDescription: You take the key.
+    responseDescription: cojes la llave con asco, huele mal
     actionResponse: {fileID: 0}
   - inputAction: {fileID: 11400000, guid: 8042fdfe5651c49e989dcf429d312725, type: 2}
     responseDescription: 
